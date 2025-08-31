@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seat No. Result Lookup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎓OOP Result </h1>
+    <input type="text" id="seatInput" placeholder="Enter Seat No (e.g., B24110006***)">
+    <button id="searchBtn">Search</button>
+    <div id="notFound">❌ No record found</div>
+    <div class="result" id="result">
+      <div class="card"><span class="label">Name:</span><span class="value" id="studentName">—</span></div>
+      <div class="card"><span class="label">Midterm Marks:</span><span class="value" id="midMarks">—</span></div>
+      <div class="card"><span class="label">Rank:</span><span class="value" id="rank">—</span></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
